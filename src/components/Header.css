@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    padding: 10px 30px;
 }
 
 .logo img {
@@ -10,6 +11,29 @@
     height: 64px;
 }
 
-.booking {
+.header-center {
     display: flex;
+    align-items: center;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 25px;
+    padding: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.booking-option {
+    margin: 0px 5px;
+}
+
+.separator {
+    padding-right: 15px;
+    border-right: 2px solid rgb(222, 222, 222);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 25px;
+    padding: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
