@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.logo img {
+    width: 118px;
+    height: 64px;
+}
+
+.booking {
+    display: flex;
+}
