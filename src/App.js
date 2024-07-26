@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Login from "./components/Login";
 import Home from "./components/Home";
+import Booking from "./components/Booking";
 
 function App() {
   return (

@@ -1,0 +1,9 @@
+/* * {
+  background-color: black;
+} */
+
+.home {
+  height: 100vh;
+  padding: 0px 30px;
+  background-color: black
+}

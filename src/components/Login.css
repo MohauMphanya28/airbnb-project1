@@ -17,7 +17,7 @@ header img {
   flex-direction: column;
 }
 
-.title {
+.login-title {
   width: 80px;
   height: 40px;
   display: flex;
@@ -31,7 +31,7 @@ header img {
   margin-bottom: 20px;
 }
 
-.title p {
+.login-title p {
   font-size: 30px;
   font-weight: 500;
 }

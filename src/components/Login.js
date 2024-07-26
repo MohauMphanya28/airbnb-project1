@@ -12,14 +12,14 @@ const Login = () => {
         />
       </header>
         <div className="login-container">
-          <div className="title">
+          <div className="login-title">
             <p>Login</p>
           </div>
           <form>
             <h5>Username</h5>
             <input type="text" />
             <h5>Password</h5>
-            <input type="password" />
+            <input type="password" /> 
           </form>
           <h5>Forgot Password?</h5>
 

@@ -1,0 +1,40 @@
+.booking {
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.booking form {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.booking form input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.booking form label {
+    font-weight: 600;
+}
+
+.hotel-input {
+    display: flex;
+}
+
+.optn {
+    border-right: 2px solid #e5e7eb;
+}
+
+.guest {
+    border: none;
+}
