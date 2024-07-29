@@ -11,7 +11,11 @@ const Home = () => {
       <Header />
       <Booking />
       <div className='card'> 
-        <img src={villa} alt='house'/>
+        <img src={villa} alt='house' className='villa'/>
+        <div className='text'>
+          Not sure where to go? Perfect!
+          <button className='btn'>I'm flexible!</button>
+        </div>
       </div>
     </div>
   )

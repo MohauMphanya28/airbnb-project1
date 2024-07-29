@@ -26,9 +26,9 @@ const Header = () => {
           <LanguageIcon style={{ margin: '0px 20px',}} />
         </div>
         <div className="profile">
-          <MenuIcon style={{ fontSize: 30, padding: '0px 5px', backgroundColor: "white", color: "black" }}/>
+          <MenuIcon style={{ fontSize: 20, padding: '0px 5px', backgroundColor: "white", color: "black" }}/>
           <Link to="/login" style={{backgroundColor: "white"}}>
-          <AccountCircleIcon style={{ color: "grey", fontSize: 30, padding: '0px 5px', backgroundColor: "white", border: "none"}} />
+          <AccountCircleIcon style={{ color: "grey", fontSize: 20, padding: '0px 5px', backgroundColor: "white", border: "none"}} />
           </Link>
         </div>
       </div>
