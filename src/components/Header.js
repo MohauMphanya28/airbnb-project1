@@ -4,7 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Link } from "react-router-dom";
 import LanguageIcon from '@mui/icons-material/Language';
-import logo from "../logos/white-logo.png"
+import logo from "../images/white-logo.png"
 
 const Header = () => {
   return (

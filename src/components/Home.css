@@ -5,5 +5,17 @@
 .home {
   height: 100vh;
   padding: 0px 30px;
-  background-color: black
+  background-color: black;
+  display: block;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  display: block;
+  width: 90vw;
+  height: 90vh;
 }
