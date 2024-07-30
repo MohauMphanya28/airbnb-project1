@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Header from './Header'
 import Booking from './Booking'
-import villa from "../images/villa.jpg"
+import home from "../images/home.jpeg"
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Header />
       <Booking />
       <div className='card'> 
-        <img src={villa} alt='house' className='villa'/>
+        <img src={home} alt='house' className='home'/>
         <div className='text'>
           Not sure where to go? Perfect!
           <button className='btn'>I'm flexible!</button>

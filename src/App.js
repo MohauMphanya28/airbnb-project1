@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import Booking from "./components/Booking";
+import Inspiration from "./components/Inspiration";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
         </Routes>
+        <Inspiration />
       </main>
     </>
   );
