@@ -1,0 +1,31 @@
+.gift-cards {
+  height: 350px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gift-cards div {
+  width: 300px;
+  height: 200px;
+}
+
+.gift-cards div p {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.gift-cards div button {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.gift-cards img {
+  height: 250px;
+  width: 800px;
+}

@@ -1,11 +1,11 @@
 .experiences {
-  height: 700px;
+  height: 560px;
   padding: 0px 30px;
 }
 
 .container {
   width: 100%;
-  height: 500px;
+  height: 450px;
   display: flex;
   justify-content: space-between;
 }
@@ -34,13 +34,13 @@
   top: 5%;
   left: 20%;
   display: flex;
-  flex-direction: column; /* Align children in a column */
-  align-items: flex-start; /* Align children to the start of the cross axis (left) */
+  flex-direction: column; 
+  align-items: flex-start; 
   text-align: left;
 }
 
 .text p {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .text button {
@@ -49,6 +49,4 @@
   border: none;
   border-radius: 5px;
   margin-top: 10px;
-  /* display: block; Ensure the button takes up full width */
-  /* text-align: left; Align button text to the left */
 }

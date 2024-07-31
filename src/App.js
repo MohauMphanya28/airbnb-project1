@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import Home from "./components/Home";
 import Inspiration from "./components/Inspiration";
 import Experiences from "./components/Experiences";
+import GiftCards from "./components/GiftCards";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </Routes>
         <Inspiration />
         <Experiences />
+        <GiftCards />
       </main>
     </>
   );
