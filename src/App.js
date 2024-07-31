@@ -1,10 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
 import Login from "./components/Login";
 import Home from "./components/Home";
-import Booking from "./components/Booking";
 import Inspiration from "./components/Inspiration";
+import Experiences from "./components/Experiences";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
           <Route path="/login" element={<Login />} />
         </Routes>
         <Inspiration />
+        <Experiences />
       </main>
     </>
   );
