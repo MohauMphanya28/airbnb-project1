@@ -6,6 +6,7 @@ import Inspiration from "./components/Inspiration";
 import Experiences from "./components/Experiences";
 import GiftCards from "./components/GiftCards";
 import Questions from "./components/Questions";
+import Destinations from "./components/Destinations";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Experiences />
         <GiftCards />
         <Questions />
+        <Destinations />
       </main>
     </>
   );

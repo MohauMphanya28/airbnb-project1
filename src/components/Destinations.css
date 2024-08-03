@@ -1,0 +1,76 @@
+.destinations {
+    height: 300px;
+    padding: 0px 30px;
+}
+
+.destinations h1 {
+    margin-bottom: 25px;
+}
+
+.destinations ul {
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin-bottom: 30px;
+}
+.destinations ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+.destinations ul li:hover {
+    color: black;
+}
+
+.destinations ul li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 0;
+    height: 2px; 
+    background-color: rgb(255, 56, 93); 
+    transition: width 0.4s ease; 
+}
+.destinations ul li:hover::after {
+    width: 100%; 
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 40px;
+}
+
+.locations p {
+    line-height: 10px;
+    width: 150px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.locations .city {
+    font-weight: 500;
+}
+
+.locations .country {
+    color: gray;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link p {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+}
