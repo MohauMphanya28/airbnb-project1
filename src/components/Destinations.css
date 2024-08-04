@@ -1,6 +1,7 @@
 .destinations {
     height: 300px;
     padding: 0px 30px;
+    margin-bottom: 50px;
 }
 
 .destinations h1 {
@@ -74,3 +75,4 @@
     font-size: 16px;
     text-decoration: underline;
 }
+

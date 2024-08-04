@@ -7,6 +7,7 @@ import Experiences from "./components/Experiences";
 import GiftCards from "./components/GiftCards";
 import Questions from "./components/Questions";
 import Destinations from "./components/Destinations";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <GiftCards />
         <Questions />
         <Destinations />
+        <Footer />
       </main>
     </>
   );
