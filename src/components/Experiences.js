@@ -10,7 +10,7 @@ const Experiences = () => {
       <div className="container">
         <div className="column left-col">
           <img src={trip} alt="canyon" className="tripExp" />
-          <div className="text">
+          <div className="exp-card-text">
             <p>
               Things to do <br /> on your trip
             </p>
@@ -19,7 +19,7 @@ const Experiences = () => {
         </div>
         <div className="column right-col">
           <img src={home} alt="home" className="homeExp" />
-          <div className="text">
+          <div className="exp-card-text">
             <p>
               Things to do <br /> from home
             </p>
