@@ -74,5 +74,6 @@ header img {
   border-radius: 4px;
   width: 37px;
   height: 20px;
-  font-weight: 500
+  font-weight: 500;
+  cursor: pointer;
 }
